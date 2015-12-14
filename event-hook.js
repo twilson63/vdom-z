@@ -1,7 +1,6 @@
 function Event (fn) {
-  this.event = event
   this.fn = function (e) {
-    e.preventDefault()
+    if (!e.keyCode) e.preventDefault()
     // TODO: if e.srcElement === form - get children values as object
     // TODO: if e.srcElement === a - get href as param
     fn(e)
