@@ -1,12 +1,17 @@
 {
   "name": "vdom-z",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A redux like library for virtual-dom",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["virtual-dom", "redux", "store", "state"],
+  "keywords": [
+    "virtual-dom",
+    "redux",
+    "store",
+    "state"
+  ],
   "author": "Tom",
   "license": "MIT",
   "dependencies": {
