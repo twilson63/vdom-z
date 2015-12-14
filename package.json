@@ -1,0 +1,16 @@
+{
+  "name": "vdom-z",
+  "version": "1.0.0",
+  "description": "A redux like library for virtual-dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["virtual-dom", "redux", "store", "state"],
+  "author": "Tom",
+  "license": "MIT",
+  "dependencies": {
+    "pouchdb": "^5.1.0",
+    "xtend": "^4.0.1"
+  }
+}
