@@ -4,7 +4,7 @@ A redux like library for the virtual-dom
 
 ## Component Example
 
-```
+``` js
 var h = require('virtual-dom/h')
 var z = require('vdom-z')
 
@@ -26,7 +26,7 @@ module.exports = function (state) {
 
 ## Config Example
 
-```
+``` js
 var main = require('main-loop')
 var z = require('vdom-z')
 
